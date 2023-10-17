@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		2719FFB02ADDA342006871A1 /* BFBScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFAF2ADDA342006871A1 /* BFBScannerApp.swift */; };
-		2719FFB22ADDA342006871A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFB12ADDA342006871A1 /* ContentView.swift */; };
+		2719FFB22ADDA342006871A1 /* AddBeneficiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFB12ADDA342006871A1 /* AddBeneficiaryView.swift */; };
 		2719FFB42ADDA343006871A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2719FFB32ADDA343006871A1 /* Assets.xcassets */; };
 		2719FFB72ADDA343006871A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2719FFB62ADDA343006871A1 /* Preview Assets.xcassets */; };
 		2719FFC12ADDA343006871A1 /* BFBScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFC02ADDA343006871A1 /* BFBScannerTests.swift */; };
 		2719FFCB2ADDA343006871A1 /* BFBScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFCA2ADDA343006871A1 /* BFBScannerUITests.swift */; };
 		2719FFCD2ADDA343006871A1 /* BFBScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFCC2ADDA343006871A1 /* BFBScannerUITestsLaunchTests.swift */; };
+		2719FFDD2ADDBE7D006871A1 /* AddBeneficiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFDC2ADDBE7D006871A1 /* AddBeneficiaryViewModel.swift */; };
+		2719FFE02ADDD0B6006871A1 /* ScanIBANView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFDF2ADDD0B6006871A1 /* ScanIBANView.swift */; };
+		2719FFE32ADDEC6C006871A1 /* UploadFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFE22ADDEC6C006871A1 /* UploadFileView.swift */; };
+		2719FFE52ADE8EF3006871A1 /* BeneficiaryInfosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFE42ADE8EF3006871A1 /* BeneficiaryInfosView.swift */; };
+		2719FFE72ADE9731006871A1 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2719FFE62ADE9731006871A1 /* Color.xcassets */; };
+		2719FFE92ADE9754006871A1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFE82ADE9754006871A1 /* UIColor+Extension.swift */; };
+		2719FFEB2ADE9820006871A1 /* Beneficiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFEA2ADE9820006871A1 /* Beneficiary.swift */; };
+		2719FFEE2ADE9F56006871A1 /* ExtractIBANProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFED2ADE9F56006871A1 /* ExtractIBANProvider.swift */; };
+		2719FFF02ADEA0EC006871A1 /* ExtractionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFEF2ADEA0EC006871A1 /* ExtractionError.swift */; };
+		2719FFF22ADEA574006871A1 /* UploadFileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFF12ADEA574006871A1 /* UploadFileViewModel.swift */; };
+		2719FFF42ADEBDFF006871A1 /* UpdateFieldsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFF32ADEBDFF006871A1 /* UpdateFieldsProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,7 @@
 /* Begin PBXFileReference section */
 		2719FFAC2ADDA342006871A1 /* BFBScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFBScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2719FFAF2ADDA342006871A1 /* BFBScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFBScannerApp.swift; sourceTree = "<group>"; };
-		2719FFB12ADDA342006871A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2719FFB12ADDA342006871A1 /* AddBeneficiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBeneficiaryView.swift; sourceTree = "<group>"; };
 		2719FFB32ADDA343006871A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2719FFB62ADDA343006871A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2719FFBC2ADDA343006871A1 /* BFBScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFBScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +55,17 @@
 		2719FFC62ADDA343006871A1 /* BFBScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFBScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2719FFCA2ADDA343006871A1 /* BFBScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFBScannerUITests.swift; sourceTree = "<group>"; };
 		2719FFCC2ADDA343006871A1 /* BFBScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFBScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2719FFDC2ADDBE7D006871A1 /* AddBeneficiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBeneficiaryViewModel.swift; sourceTree = "<group>"; };
+		2719FFDF2ADDD0B6006871A1 /* ScanIBANView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanIBANView.swift; sourceTree = "<group>"; };
+		2719FFE22ADDEC6C006871A1 /* UploadFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadFileView.swift; sourceTree = "<group>"; };
+		2719FFE42ADE8EF3006871A1 /* BeneficiaryInfosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryInfosView.swift; sourceTree = "<group>"; };
+		2719FFE62ADE9731006871A1 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		2719FFE82ADE9754006871A1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		2719FFEA2ADE9820006871A1 /* Beneficiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beneficiary.swift; sourceTree = "<group>"; };
+		2719FFED2ADE9F56006871A1 /* ExtractIBANProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractIBANProvider.swift; sourceTree = "<group>"; };
+		2719FFEF2ADEA0EC006871A1 /* ExtractionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractionError.swift; sourceTree = "<group>"; };
+		2719FFF12ADEA574006871A1 /* UploadFileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadFileViewModel.swift; sourceTree = "<group>"; };
+		2719FFF32ADEBDFF006871A1 /* UpdateFieldsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateFieldsProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +116,14 @@
 		2719FFAE2ADDA342006871A1 /* BFBScanner */ = {
 			isa = PBXGroup;
 			children = (
+				2719FFEC2ADE9F32006871A1 /* Extract IBAN */,
+				2719FFE12ADDEC48006871A1 /* Upload */,
+				2719FFDE2ADDD0A0006871A1 /* Scanner */,
+				2719FFDB2ADDBE36006871A1 /* Beneficiary */,
 				2719FFDA2ADDA378006871A1 /* Helpers */,
 				2719FFD92ADDA367006871A1 /* Models */,
 				2719FFAF2ADDA342006871A1 /* BFBScannerApp.swift */,
-				2719FFB12ADDA342006871A1 /* ContentView.swift */,
+				2719FFE62ADE9731006871A1 /* Color.xcassets */,
 				2719FFB32ADDA343006871A1 /* Assets.xcassets */,
 				2719FFB52ADDA343006871A1 /* Preview Content */,
 			);
@@ -132,6 +158,7 @@
 		2719FFD92ADDA367006871A1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2719FFEA2ADE9820006871A1 /* Beneficiary.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -139,8 +166,46 @@
 		2719FFDA2ADDA378006871A1 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				2719FFE82ADE9754006871A1 /* UIColor+Extension.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2719FFDB2ADDBE36006871A1 /* Beneficiary */ = {
+			isa = PBXGroup;
+			children = (
+				2719FFB12ADDA342006871A1 /* AddBeneficiaryView.swift */,
+				2719FFDC2ADDBE7D006871A1 /* AddBeneficiaryViewModel.swift */,
+				2719FFE42ADE8EF3006871A1 /* BeneficiaryInfosView.swift */,
+			);
+			path = Beneficiary;
+			sourceTree = "<group>";
+		};
+		2719FFDE2ADDD0A0006871A1 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				2719FFDF2ADDD0B6006871A1 /* ScanIBANView.swift */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		2719FFE12ADDEC48006871A1 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				2719FFE22ADDEC6C006871A1 /* UploadFileView.swift */,
+				2719FFF12ADEA574006871A1 /* UploadFileViewModel.swift */,
+				2719FFF32ADEBDFF006871A1 /* UpdateFieldsProtocol.swift */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
+		2719FFEC2ADE9F32006871A1 /* Extract IBAN */ = {
+			isa = PBXGroup;
+			children = (
+				2719FFED2ADE9F56006871A1 /* ExtractIBANProvider.swift */,
+				2719FFEF2ADEA0EC006871A1 /* ExtractionError.swift */,
+			);
+			path = "Extract IBAN";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +314,7 @@
 			files = (
 				2719FFB72ADDA343006871A1 /* Preview Assets.xcassets in Resources */,
 				2719FFB42ADDA343006871A1 /* Assets.xcassets in Resources */,
+				2719FFE72ADE9731006871A1 /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +339,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2719FFB22ADDA342006871A1 /* ContentView.swift in Sources */,
+				2719FFE92ADE9754006871A1 /* UIColor+Extension.swift in Sources */,
+				2719FFDD2ADDBE7D006871A1 /* AddBeneficiaryViewModel.swift in Sources */,
+				2719FFB22ADDA342006871A1 /* AddBeneficiaryView.swift in Sources */,
+				2719FFE52ADE8EF3006871A1 /* BeneficiaryInfosView.swift in Sources */,
+				2719FFE32ADDEC6C006871A1 /* UploadFileView.swift in Sources */,
+				2719FFEB2ADE9820006871A1 /* Beneficiary.swift in Sources */,
 				2719FFB02ADDA342006871A1 /* BFBScannerApp.swift in Sources */,
+				2719FFE02ADDD0B6006871A1 /* ScanIBANView.swift in Sources */,
+				2719FFEE2ADE9F56006871A1 /* ExtractIBANProvider.swift in Sources */,
+				2719FFF42ADEBDFF006871A1 /* UpdateFieldsProtocol.swift in Sources */,
+				2719FFF22ADEA574006871A1 /* UploadFileViewModel.swift in Sources */,
+				2719FFF02ADEA0EC006871A1 /* ExtractionError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +514,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BFBScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -466,6 +543,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BFBScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol UpdateFieldsProtocol: AnyObject {
+  func updateFields(iban: String, shouldShowInfos: Bool)
+}

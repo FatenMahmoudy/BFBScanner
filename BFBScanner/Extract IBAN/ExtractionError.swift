@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+enum ExtractionError: String, Error {
+    case nocgImage = "Failed to get CGImage from image"
+    case technical
+    case parsingFailed
+}
