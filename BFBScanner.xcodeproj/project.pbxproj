@@ -11,7 +11,6 @@
 		2719FFB22ADDA342006871A1 /* AddBeneficiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFB12ADDA342006871A1 /* AddBeneficiaryView.swift */; };
 		2719FFB42ADDA343006871A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2719FFB32ADDA343006871A1 /* Assets.xcassets */; };
 		2719FFB72ADDA343006871A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2719FFB62ADDA343006871A1 /* Preview Assets.xcassets */; };
-		2719FFC12ADDA343006871A1 /* BFBScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFC02ADDA343006871A1 /* BFBScannerTests.swift */; };
 		2719FFCB2ADDA343006871A1 /* BFBScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFCA2ADDA343006871A1 /* BFBScannerUITests.swift */; };
 		2719FFCD2ADDA343006871A1 /* BFBScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFCC2ADDA343006871A1 /* BFBScannerUITestsLaunchTests.swift */; };
 		2719FFDD2ADDBE7D006871A1 /* AddBeneficiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFDC2ADDBE7D006871A1 /* AddBeneficiaryViewModel.swift */; };
@@ -25,6 +24,7 @@
 		2719FFF02ADEA0EC006871A1 /* ExtractionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFEF2ADEA0EC006871A1 /* ExtractionError.swift */; };
 		2719FFF22ADEA574006871A1 /* UploadFileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFF12ADEA574006871A1 /* UploadFileViewModel.swift */; };
 		2719FFF42ADEBDFF006871A1 /* UpdateFieldsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFF32ADEBDFF006871A1 /* UpdateFieldsProtocol.swift */; };
+		2719FFF62AE31121006871A1 /* UploadFileViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719FFF52AE31121006871A1 /* UploadFileViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,6 @@
 		2719FFB32ADDA343006871A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2719FFB62ADDA343006871A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2719FFBC2ADDA343006871A1 /* BFBScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFBScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2719FFC02ADDA343006871A1 /* BFBScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFBScannerTests.swift; sourceTree = "<group>"; };
 		2719FFC62ADDA343006871A1 /* BFBScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFBScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2719FFCA2ADDA343006871A1 /* BFBScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFBScannerUITests.swift; sourceTree = "<group>"; };
 		2719FFCC2ADDA343006871A1 /* BFBScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFBScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		2719FFEF2ADEA0EC006871A1 /* ExtractionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractionError.swift; sourceTree = "<group>"; };
 		2719FFF12ADEA574006871A1 /* UploadFileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadFileViewModel.swift; sourceTree = "<group>"; };
 		2719FFF32ADEBDFF006871A1 /* UpdateFieldsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateFieldsProtocol.swift; sourceTree = "<group>"; };
+		2719FFF52AE31121006871A1 /* UploadFileViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadFileViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,7 @@
 		2719FFBF2ADDA343006871A1 /* BFBScannerTests */ = {
 			isa = PBXGroup;
 			children = (
-				2719FFC02ADDA343006871A1 /* BFBScannerTests.swift */,
+				2719FFF52AE31121006871A1 /* UploadFileViewModelTests.swift */,
 			);
 			path = BFBScannerTests;
 			sourceTree = "<group>";
@@ -358,7 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2719FFC12ADDA343006871A1 /* BFBScannerTests.swift in Sources */,
+				2719FFF62AE31121006871A1 /* UploadFileViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
